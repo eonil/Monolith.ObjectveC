@@ -2,7 +2,7 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:README">
+      location = "group:README.md">
    </FileRef>
    <Group
       location = "group:Components"
