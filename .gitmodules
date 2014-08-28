@@ -1,0 +1,6 @@
+[submodule "Components/Common"]
+	path = Components/Common
+	url = https://github.com/Eonil/Common.git
+[submodule "Components/CocoaSQLite"]
+	path = Components/CocoaSQLite
+	url = https://github.com/Eonil/CocoaSQLite.git
