@@ -33,10 +33,10 @@
 		458D145019C1F97E004F0405 /* Monolith.m in Sources */ = {isa = PBXBuildFile; fileRef = 458D144C19C1F97E004F0405 /* Monolith.m */; };
 		45B2899619C214BA00208C96 /* EonilSQLite3.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4551EB3B19C212BF0048FD31 /* EonilSQLite3.framework */; };
 		45B2899719C214BA00208C96 /* EonilXML.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4551EB4A19C212BF0048FD31 /* EonilXML.framework */; };
-		45B289B319C2152700208C96 /* EonilSQLite3.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4551EB3919C212BF0048FD31 /* EonilSQLite3.framework */; };
-		45B289B419C2152700208C96 /* EonilXML.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4551EB4819C212BF0048FD31 /* EonilXML.framework */; };
-		45B289E419C2159700208C96 /* FoundationExtras - iOS - Dynamic Framework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45B289E319C2159700208C96 /* FoundationExtras - iOS - Dynamic Framework.framework */; };
-		45B28A1919C215FC00208C96 /* UIKitSanitizer - iOS Dynamic Framework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45B28A1819C215FC00208C96 /* UIKitSanitizer - iOS Dynamic Framework.framework */; };
+		45FF5B2C19C22A3300CEAA48 /* EonilSQLite3.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4551EB3519C212BF0048FD31 /* EonilSQLite3.framework */; };
+		45FF5B2D19C22A4300CEAA48 /* EonilXML.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4551EB4419C212BF0048FD31 /* EonilXML.framework */; };
+		45FF5B2E19C22A4300CEAA48 /* FoundationExtras.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4578942219AFD1520010CEAB /* FoundationExtras.framework */; };
+		45FF5B2F19C22A4300CEAA48 /* UIKitSanitizer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4565C2C519C2296C007A956E /* UIKitSanitizer.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -74,13 +74,6 @@
 			proxyType = 2;
 			remoteGlobalIDString = 4518C1FD14CBD0CE00EF0620;
 			remoteInfo = "EonilSQLite3 - iOS Static Library";
-		};
-		4551E96C19C201BA0048FD31 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 4551E95C19C201BA0048FD31 /* EonilSQLite3.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 45F13E861969D0F500F7B630;
-			remoteInfo = "EonilSQLite3 - OSX Framework";
 		};
 		4551E96E19C201BA0048FD31 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -208,6 +201,27 @@
 			remoteGlobalIDString = 458D141D19C1F5E5004F0405;
 			remoteInfo = "Monolith - iOS";
 		};
+		4565C2BC19C2296C007A956E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 457893FD19AFD1520010CEAB /* FoundationExtras.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 450A2BC119C0BAE4009D55B5;
+			remoteInfo = "FoundationExtras - iOS - Static Framework";
+		};
+		4565C2C219C2296C007A956E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 450A2BFD19C0BCA4009D55B5 /* UIKitSanitizer.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 450A2BE619C0BC68009D55B5;
+			remoteInfo = "UIKitSanitizer - iOS - Static Framework";
+		};
+		4565C2C419C2296C007A956E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 450A2BFD19C0BCA4009D55B5 /* UIKitSanitizer.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 45CA27F219C21F6000557F48;
+			remoteInfo = "UIKitSanitizer - iOS - Dynamic Framework";
+		};
 		4578940219AFD1520010CEAB /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 457893FA19AFD1520010CEAB /* AppKitSanitizer.xcodeproj */;
@@ -264,13 +278,6 @@
 			remoteGlobalIDString = 45B289C119C2155500208C96;
 			remoteInfo = "FoundationExtras - iOS - Dynamic Framework";
 		};
-		45B28A1719C215FC00208C96 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 450A2BFD19C0BCA4009D55B5 /* UIKitSanitizer.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 45B289F219C215D200208C96;
-			remoteInfo = "UIKitSanitizer - iOS Dynamic Framework";
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -323,10 +330,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				45B28A1919C215FC00208C96 /* UIKitSanitizer - iOS Dynamic Framework.framework in Frameworks */,
-				45B289E419C2159700208C96 /* FoundationExtras - iOS - Dynamic Framework.framework in Frameworks */,
-				45B289B319C2152700208C96 /* EonilSQLite3.framework in Frameworks */,
-				45B289B419C2152700208C96 /* EonilXML.framework in Frameworks */,
+				45FF5B2D19C22A4300CEAA48 /* EonilXML.framework in Frameworks */,
+				45FF5B2E19C22A4300CEAA48 /* FoundationExtras.framework in Frameworks */,
+				45FF5B2F19C22A4300CEAA48 /* UIKitSanitizer.framework in Frameworks */,
+				45FF5B2C19C22A3300CEAA48 /* EonilSQLite3.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -338,7 +345,8 @@
 			children = (
 				450A2C0719C0BCA4009D55B5 /* libUIKitSanitizer.a */,
 				450A2C0919C0BCA4009D55B5 /* UIKitSanitizerTests.xctest */,
-				45B28A1819C215FC00208C96 /* UIKitSanitizer - iOS Dynamic Framework.framework */,
+				4565C2C319C2296C007A956E /* UIKitSanitizer.framework */,
+				4565C2C519C2296C007A956E /* UIKitSanitizer.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -347,7 +355,6 @@
 			isa = PBXGroup;
 			children = (
 				4551E96B19C201BA0048FD31 /* libEonilSQLite3.a */,
-				4551E96D19C201BA0048FD31 /* EonilSQLite3.framework */,
 				4551E96F19C201BA0048FD31 /* libEonilSQLite3.a */,
 				4551E97119C201BA0048FD31 /* EonilSQLite3.dylib */,
 				4551E97319C201BA0048FD31 /* SQLite-Test.octest */,
@@ -427,12 +434,13 @@
 		457893FE19AFD1520010CEAB /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				4578942219AFD1520010CEAB /* FoundationExtras.framework */,
-				45B289E319C2159700208C96 /* FoundationExtras - iOS - Dynamic Framework.framework */,
-				4578942419AFD1520010CEAB /* libFoundationExtras.a */,
-				4578942619AFD1520010CEAB /* Tests - FoundationExtras - iOS - Static Library.xctest */,
 				450A2B9E19C0B9D4009D55B5 /* libFoundationExtras.a */,
 				450A2BA019C0B9D4009D55B5 /* FoundationExtras - OSX - Static Library - Tests.xctest */,
+				4578942219AFD1520010CEAB /* FoundationExtras.framework */,
+				4578942419AFD1520010CEAB /* libFoundationExtras.a */,
+				4578942619AFD1520010CEAB /* Tests - FoundationExtras - iOS - Static Library.xctest */,
+				4565C2BD19C2296C007A956E /* FoundationExtras.framework */,
+				45B289E319C2159700208C96 /* FoundationExtras.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -638,13 +646,6 @@
 			remoteRef = 4551E96A19C201BA0048FD31 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		4551E96D19C201BA0048FD31 /* EonilSQLite3.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = EonilSQLite3.framework;
-			remoteRef = 4551E96C19C201BA0048FD31 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
 		4551E96F19C201BA0048FD31 /* libEonilSQLite3.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
@@ -757,6 +758,27 @@
 			remoteRef = 4551EB4919C212BF0048FD31 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
+		4565C2BD19C2296C007A956E /* FoundationExtras.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = FoundationExtras.framework;
+			remoteRef = 4565C2BC19C2296C007A956E /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		4565C2C319C2296C007A956E /* UIKitSanitizer.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = UIKitSanitizer.framework;
+			remoteRef = 4565C2C219C2296C007A956E /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		4565C2C519C2296C007A956E /* UIKitSanitizer.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = UIKitSanitizer.framework;
+			remoteRef = 4565C2C419C2296C007A956E /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
 		4578940319AFD1520010CEAB /* AppKitSanitizer.framework */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.framework;
@@ -792,18 +814,11 @@
 			remoteRef = 4578942519AFD1520010CEAB /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		45B289E319C2159700208C96 /* FoundationExtras - iOS - Dynamic Framework.framework */ = {
+		45B289E319C2159700208C96 /* FoundationExtras.framework */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.framework;
-			path = "FoundationExtras - iOS - Dynamic Framework.framework";
+			path = FoundationExtras.framework;
 			remoteRef = 45B289E219C2159700208C96 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		45B28A1819C215FC00208C96 /* UIKitSanitizer - iOS Dynamic Framework.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = "UIKitSanitizer - iOS Dynamic Framework.framework";
-			remoteRef = 45B28A1719C215FC00208C96 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */
