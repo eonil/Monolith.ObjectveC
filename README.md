@@ -5,6 +5,11 @@ Hoon H.
 
 
 
+
+
+
+
+
 This is a trial to make a monolithic repository for all of 
 my reusable code.
 
@@ -60,6 +65,31 @@ Note
 Do not place any large binary. Currently I have no good idea 
 how to handle those large binaries. Then, prebuilt LLDB 
 library has been excluded.
+
+
+
+
+
+Issues
+------
+Currently, only dynamic framework packaging is supported.
+This is because I don't know how to merge static libraraies
+effectively with thier headers.
+If you need static linking, use static library or framework
+targets prepared on each component projects.
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

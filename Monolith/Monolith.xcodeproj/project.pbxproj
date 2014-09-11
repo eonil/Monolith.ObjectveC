@@ -7,30 +7,77 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		455BDCF819AE71C900939A21 /* Monolith.h in Headers */ = {isa = PBXBuildFile; fileRef = 455BE48619AE6EDD00BE6D11 /* Monolith.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		455BE47A19AE6EDD00BE6D11 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 455BE47919AE6EDD00BE6D11 /* Cocoa.framework */; };
-		455BE48419AE6EDD00BE6D11 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 455BE48219AE6EDD00BE6D11 /* InfoPlist.strings */; };
-		455BE48819AE6EDD00BE6D11 /* Monolith.m in Sources */ = {isa = PBXBuildFile; fileRef = 455BE48719AE6EDD00BE6D11 /* Monolith.m */; };
-		455BE48F19AE6EDD00BE6D11 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 455BE48E19AE6EDD00BE6D11 /* XCTest.framework */; };
-		455BE49019AE6EDD00BE6D11 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 455BE47919AE6EDD00BE6D11 /* Cocoa.framework */; };
-		455BE49319AE6EDD00BE6D11 /* Monolith.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 455BE47619AE6EDD00BE6D11 /* Monolith.framework */; };
-		455BE49919AE6EDD00BE6D11 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 455BE49719AE6EDD00BE6D11 /* InfoPlist.strings */; };
-		455BE49B19AE6EDD00BE6D11 /* MonolithTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 455BE49A19AE6EDD00BE6D11 /* MonolithTests.m */; };
 		4578942D19AFD18B0010CEAB /* AppKitSanitizer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4578940319AFD1520010CEAB /* AppKitSanitizer.framework */; };
 		4578942E19AFD18B0010CEAB /* CocoaSQLite3.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4578941119AFD1520010CEAB /* CocoaSQLite3.framework */; };
 		4578942F19AFD18B0010CEAB /* FoundationExtras.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4578942219AFD1520010CEAB /* FoundationExtras.framework */; };
-		4578943319AFD1CD0010CEAB /* CocoaSQLite3.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 4578941119AFD1520010CEAB /* CocoaSQLite3.framework */; };
-		4578943419AFD1CD0010CEAB /* AppKitSanitizer.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 4578940319AFD1520010CEAB /* AppKitSanitizer.framework */; };
-		4578943519AFD1CD0010CEAB /* FoundationExtras.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 4578942219AFD1520010CEAB /* FoundationExtras.framework */; };
+		4578943319AFD1CD0010CEAB /* CocoaSQLite3.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 4578941119AFD1520010CEAB /* CocoaSQLite3.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		4578943419AFD1CD0010CEAB /* AppKitSanitizer.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 4578940319AFD1520010CEAB /* AppKitSanitizer.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		4578943519AFD1CD0010CEAB /* FoundationExtras.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 4578942219AFD1520010CEAB /* FoundationExtras.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		458D144D19C1F97E004F0405 /* Monolith.h in Headers */ = {isa = PBXBuildFile; fileRef = 458D144B19C1F97E004F0405 /* Monolith.h */; };
+		458D144E19C1F97E004F0405 /* Monolith.h in Headers */ = {isa = PBXBuildFile; fileRef = 458D144B19C1F97E004F0405 /* Monolith.h */; };
+		458D144F19C1F97E004F0405 /* Monolith.m in Sources */ = {isa = PBXBuildFile; fileRef = 458D144C19C1F97E004F0405 /* Monolith.m */; };
+		458D145019C1F97E004F0405 /* Monolith.m in Sources */ = {isa = PBXBuildFile; fileRef = 458D144C19C1F97E004F0405 /* Monolith.m */; };
+		458D145219C1F98B004F0405 /* Monolith.swift in Sources */ = {isa = PBXBuildFile; fileRef = 458D145119C1F98B004F0405 /* Monolith.swift */; };
+		458D145319C1F98B004F0405 /* Monolith.swift in Sources */ = {isa = PBXBuildFile; fileRef = 458D145119C1F98B004F0405 /* Monolith.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		455BE49119AE6EDD00BE6D11 /* PBXContainerItemProxy */ = {
+		450A2B9319C0B9D4009D55B5 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 455BE46A19AE6E7600BE6D11 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 455BE47519AE6EDD00BE6D11;
-			remoteInfo = Monolith;
+			containerPortal = 450A2B8519C0B9D4009D55B5 /* EonilXML.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 45E68C1A16842A0700DAE96E;
+			remoteInfo = "iOS Static Library";
+		};
+		450A2B9519C0B9D4009D55B5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 450A2B8519C0B9D4009D55B5 /* EonilXML.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 45E68C2D16842A1400DAE96E;
+			remoteInfo = "OS X Static Library";
+		};
+		450A2B9D19C0B9D4009D55B5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 457893FD19AFD1520010CEAB /* FoundationExtras.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 45ACCC7219B37740001FB424;
+			remoteInfo = "FoundationExtras - OSX - Static Library";
+		};
+		450A2B9F19C0B9D4009D55B5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 457893FD19AFD1520010CEAB /* FoundationExtras.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 45ACCC7E19B37740001FB424;
+			remoteInfo = "FoundationExtras - OSX - Static Library - Tests";
+		};
+		450A2C0119C0BCA4009D55B5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 457893FD19AFD1520010CEAB /* FoundationExtras.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 450A2BC119C0BAE4009D55B5;
+			remoteInfo = "FoundationExtras - iOS - Static Framework";
+		};
+		450A2C0619C0BCA4009D55B5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 450A2BFD19C0BCA4009D55B5 /* UIKitSanitizer.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 4542F3CE19971BB800F95720;
+			remoteInfo = "UIKitSanitizer - iOS Static Library";
+		};
+		450A2C0819C0BCA4009D55B5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 450A2BFD19C0BCA4009D55B5 /* UIKitSanitizer.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 4542F3DB19971BB800F95720;
+			remoteInfo = UIKitSanitizerTests;
+		};
+		450A2C0A19C0BCA4009D55B5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 450A2BFD19C0BCA4009D55B5 /* UIKitSanitizer.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 450A2BE619C0BC68009D55B5;
+			remoteInfo = "UIKitSanitizer - iOS - Static Framework";
 		};
 		4578940219AFD1520010CEAB /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -162,24 +209,23 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		450A2B8519C0B9D4009D55B5 /* EonilXML.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = EonilXML.xcodeproj; path = ../Components/EonilXML/EonilXML.xcodeproj; sourceTree = "<group>"; };
+		450A2BFD19C0BCA4009D55B5 /* UIKitSanitizer.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = UIKitSanitizer.xcodeproj; path = ../Components/Common/UIKitSanitizer/UIKitSanitizer.xcodeproj; sourceTree = "<group>"; };
 		455BE47619AE6EDD00BE6D11 /* Monolith.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Monolith.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		455BE47919AE6EDD00BE6D11 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		455BE47C19AE6EDD00BE6D11 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		455BE47D19AE6EDD00BE6D11 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		455BE47E19AE6EDD00BE6D11 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
-		455BE48119AE6EDD00BE6D11 /* Monolith-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Monolith-Info.plist"; sourceTree = "<group>"; };
-		455BE48319AE6EDD00BE6D11 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		455BE48519AE6EDD00BE6D11 /* Monolith-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Monolith-Prefix.pch"; sourceTree = "<group>"; };
-		455BE48619AE6EDD00BE6D11 /* Monolith.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Monolith.h; sourceTree = "<group>"; };
-		455BE48719AE6EDD00BE6D11 /* Monolith.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Monolith.m; sourceTree = "<group>"; };
-		455BE48D19AE6EDD00BE6D11 /* MonolithTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MonolithTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		455BE48E19AE6EDD00BE6D11 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		455BE49619AE6EDD00BE6D11 /* MonolithTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MonolithTests-Info.plist"; sourceTree = "<group>"; };
-		455BE49819AE6EDD00BE6D11 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		455BE49A19AE6EDD00BE6D11 /* MonolithTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MonolithTests.m; sourceTree = "<group>"; };
 		457893F719AFD1520010CEAB /* CocoaSQLite3.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = CocoaSQLite3.xcodeproj; path = ../Components/CocoaSQLite/CocoaSQLite3.xcodeproj; sourceTree = "<group>"; };
 		457893FA19AFD1520010CEAB /* AppKitSanitizer.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = AppKitSanitizer.xcodeproj; path = ../Components/Common/AppKitSanitizer/AppKitSanitizer.xcodeproj; sourceTree = "<group>"; };
 		457893FD19AFD1520010CEAB /* FoundationExtras.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = FoundationExtras.xcodeproj; path = ../Components/Common/FoundationExtras/FoundationExtras.xcodeproj; sourceTree = "<group>"; };
+		458D13D619C1F528004F0405 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		458D13D819C1F545004F0405 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		458D141E19C1F5E5004F0405 /* Monolith.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Monolith.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		458D144B19C1F97E004F0405 /* Monolith.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Monolith.h; sourceTree = "<group>"; };
+		458D144C19C1F97E004F0405 /* Monolith.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Monolith.m; sourceTree = "<group>"; };
+		458D145119C1F98B004F0405 /* Monolith.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Monolith.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -194,27 +240,41 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		455BE48A19AE6EDD00BE6D11 /* Frameworks */ = {
+		458D141A19C1F5E5004F0405 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				455BE49019AE6EDD00BE6D11 /* Cocoa.framework in Frameworks */,
-				455BE48F19AE6EDD00BE6D11 /* XCTest.framework in Frameworks */,
-				455BE49319AE6EDD00BE6D11 /* Monolith.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		450A2B8619C0B9D4009D55B5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				450A2B9419C0B9D4009D55B5 /* libEonilXML.a */,
+				450A2B9619C0B9D4009D55B5 /* libEonilXML.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		450A2BFE19C0BCA4009D55B5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				450A2C0719C0BCA4009D55B5 /* libUIKitSanitizer.a */,
+				450A2C0919C0BCA4009D55B5 /* UIKitSanitizerTests.xctest */,
+				450A2C0B19C0BCA4009D55B5 /* UIKitSanitizer.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		455BE46919AE6E7600BE6D11 = {
 			isa = PBXGroup;
 			children = (
-				457893F719AFD1520010CEAB /* CocoaSQLite3.xcodeproj */,
-				457893FA19AFD1520010CEAB /* AppKitSanitizer.xcodeproj */,
-				457893FD19AFD1520010CEAB /* FoundationExtras.xcodeproj */,
-				455BE47F19AE6EDD00BE6D11 /* Monolith */,
-				455BE49419AE6EDD00BE6D11 /* MonolithTests */,
+				458D143C19C1F8C7004F0405 /* (components) */,
+				458D144A19C1F96E004F0405 /* Monolith */,
+				45AF1C5E19C0C06800151509 /* Targets */,
 				455BE47819AE6EDD00BE6D11 /* Frameworks */,
 				455BE47719AE6EDD00BE6D11 /* Products */,
 			);
@@ -224,7 +284,7 @@
 			isa = PBXGroup;
 			children = (
 				455BE47619AE6EDD00BE6D11 /* Monolith.framework */,
-				455BE48D19AE6EDD00BE6D11 /* MonolithTests.xctest */,
+				458D141E19C1F5E5004F0405 /* Monolith.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -247,44 +307,6 @@
 				455BE47E19AE6EDD00BE6D11 /* AppKit.framework */,
 			);
 			name = "Other Frameworks";
-			sourceTree = "<group>";
-		};
-		455BE47F19AE6EDD00BE6D11 /* Monolith */ = {
-			isa = PBXGroup;
-			children = (
-				455BE48619AE6EDD00BE6D11 /* Monolith.h */,
-				455BE48719AE6EDD00BE6D11 /* Monolith.m */,
-				455BE48019AE6EDD00BE6D11 /* Supporting Files */,
-			);
-			path = Monolith;
-			sourceTree = "<group>";
-		};
-		455BE48019AE6EDD00BE6D11 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				455BE48119AE6EDD00BE6D11 /* Monolith-Info.plist */,
-				455BE48219AE6EDD00BE6D11 /* InfoPlist.strings */,
-				455BE48519AE6EDD00BE6D11 /* Monolith-Prefix.pch */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		455BE49419AE6EDD00BE6D11 /* MonolithTests */ = {
-			isa = PBXGroup;
-			children = (
-				455BE49A19AE6EDD00BE6D11 /* MonolithTests.m */,
-				455BE49519AE6EDD00BE6D11 /* Supporting Files */,
-			);
-			path = MonolithTests;
-			sourceTree = "<group>";
-		};
-		455BE49519AE6EDD00BE6D11 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				455BE49619AE6EDD00BE6D11 /* MonolithTests-Info.plist */,
-				455BE49719AE6EDD00BE6D11 /* InfoPlist.strings */,
-			);
-			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 		457893F819AFD1520010CEAB /* Products */ = {
@@ -314,11 +336,61 @@
 		457893FE19AFD1520010CEAB /* Products */ = {
 			isa = PBXGroup;
 			children = (
+				450A2B9E19C0B9D4009D55B5 /* libFoundationExtras.a */,
+				450A2BA019C0B9D4009D55B5 /* FoundationExtras - OSX - Static Library - Tests.xctest */,
 				4578942219AFD1520010CEAB /* FoundationExtras.framework */,
 				4578942419AFD1520010CEAB /* libFoundationExtras.a */,
 				4578942619AFD1520010CEAB /* Tests - FoundationExtras - iOS - Static Library.xctest */,
+				450A2C0219C0BCA4009D55B5 /* FoundationExtras.framework */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		458D13D319C1F528004F0405 /* OSX */ = {
+			isa = PBXGroup;
+			children = (
+				458D13D619C1F528004F0405 /* Info.plist */,
+			);
+			path = OSX;
+			sourceTree = "<group>";
+		};
+		458D13D719C1F545004F0405 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				458D13D819C1F545004F0405 /* Info.plist */,
+			);
+			path = iOS;
+			sourceTree = "<group>";
+		};
+		458D143C19C1F8C7004F0405 /* (components) */ = {
+			isa = PBXGroup;
+			children = (
+				457893FD19AFD1520010CEAB /* FoundationExtras.xcodeproj */,
+				457893FA19AFD1520010CEAB /* AppKitSanitizer.xcodeproj */,
+				450A2BFD19C0BCA4009D55B5 /* UIKitSanitizer.xcodeproj */,
+				457893F719AFD1520010CEAB /* CocoaSQLite3.xcodeproj */,
+				450A2B8519C0B9D4009D55B5 /* EonilXML.xcodeproj */,
+			);
+			name = "(components)";
+			sourceTree = "<group>";
+		};
+		458D144A19C1F96E004F0405 /* Monolith */ = {
+			isa = PBXGroup;
+			children = (
+				458D144B19C1F97E004F0405 /* Monolith.h */,
+				458D144C19C1F97E004F0405 /* Monolith.m */,
+				458D145119C1F98B004F0405 /* Monolith.swift */,
+			);
+			path = Monolith;
+			sourceTree = "<group>";
+		};
+		45AF1C5E19C0C06800151509 /* Targets */ = {
+			isa = PBXGroup;
+			children = (
+				458D13D719C1F545004F0405 /* iOS */,
+				458D13D319C1F528004F0405 /* OSX */,
+			);
+			path = Targets;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -328,16 +400,24 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				455BDCF819AE71C900939A21 /* Monolith.h in Headers */,
+				458D144D19C1F97E004F0405 /* Monolith.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		458D141B19C1F5E5004F0405 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				458D144E19C1F97E004F0405 /* Monolith.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		455BE47519AE6EDD00BE6D11 /* Monolith - OSX - Dynamic Framework */ = {
+		455BE47519AE6EDD00BE6D11 /* Monolith - OSX */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 455BE49C19AE6EDE00BE6D11 /* Build configuration list for PBXNativeTarget "Monolith - OSX - Dynamic Framework" */;
+			buildConfigurationList = 455BE49C19AE6EDE00BE6D11 /* Build configuration list for PBXNativeTarget "Monolith - OSX" */;
 			buildPhases = (
 				455BE47119AE6EDD00BE6D11 /* Sources */,
 				455BE47219AE6EDD00BE6D11 /* Frameworks */,
@@ -352,28 +432,28 @@
 				4578942A19AFD1820010CEAB /* PBXTargetDependency */,
 				4578942C19AFD1820010CEAB /* PBXTargetDependency */,
 			);
-			name = "Monolith - OSX - Dynamic Framework";
+			name = "Monolith - OSX";
 			productName = Monolith;
 			productReference = 455BE47619AE6EDD00BE6D11 /* Monolith.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		455BE48C19AE6EDD00BE6D11 /* MonolithTests */ = {
+		458D141D19C1F5E5004F0405 /* Monolith - iOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 455BE49F19AE6EDE00BE6D11 /* Build configuration list for PBXNativeTarget "MonolithTests" */;
+			buildConfigurationList = 458D143619C1F5E5004F0405 /* Build configuration list for PBXNativeTarget "Monolith - iOS" */;
 			buildPhases = (
-				455BE48919AE6EDD00BE6D11 /* Sources */,
-				455BE48A19AE6EDD00BE6D11 /* Frameworks */,
-				455BE48B19AE6EDD00BE6D11 /* Resources */,
+				458D141919C1F5E5004F0405 /* Sources */,
+				458D141A19C1F5E5004F0405 /* Frameworks */,
+				458D141B19C1F5E5004F0405 /* Headers */,
+				458D141C19C1F5E5004F0405 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				455BE49219AE6EDD00BE6D11 /* PBXTargetDependency */,
 			);
-			name = MonolithTests;
-			productName = MonolithTests;
-			productReference = 455BE48D19AE6EDD00BE6D11 /* MonolithTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
+			name = "Monolith - iOS";
+			productName = "Monolith - iOS";
+			productReference = 458D141E19C1F5E5004F0405 /* Monolith.framework */;
+			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
@@ -381,10 +461,10 @@
 		455BE46A19AE6E7600BE6D11 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0510;
+				LastUpgradeCheck = 0600;
 				TargetAttributes = {
-					455BE48C19AE6EDD00BE6D11 = {
-						TestTargetID = 455BE47519AE6EDD00BE6D11;
+					458D141D19C1F5E5004F0405 = {
+						CreatedOnToolsVersion = 6.0;
 					};
 				};
 			};
@@ -394,6 +474,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = 455BE46919AE6E7600BE6D11;
 			productRefGroup = 455BE47719AE6EDD00BE6D11 /* Products */;
@@ -408,19 +489,83 @@
 					ProjectRef = 457893F719AFD1520010CEAB /* CocoaSQLite3.xcodeproj */;
 				},
 				{
+					ProductGroup = 450A2B8619C0B9D4009D55B5 /* Products */;
+					ProjectRef = 450A2B8519C0B9D4009D55B5 /* EonilXML.xcodeproj */;
+				},
+				{
 					ProductGroup = 457893FE19AFD1520010CEAB /* Products */;
 					ProjectRef = 457893FD19AFD1520010CEAB /* FoundationExtras.xcodeproj */;
+				},
+				{
+					ProductGroup = 450A2BFE19C0BCA4009D55B5 /* Products */;
+					ProjectRef = 450A2BFD19C0BCA4009D55B5 /* UIKitSanitizer.xcodeproj */;
 				},
 			);
 			projectRoot = "";
 			targets = (
-				455BE47519AE6EDD00BE6D11 /* Monolith - OSX - Dynamic Framework */,
-				455BE48C19AE6EDD00BE6D11 /* MonolithTests */,
+				455BE47519AE6EDD00BE6D11 /* Monolith - OSX */,
+				458D141D19C1F5E5004F0405 /* Monolith - iOS */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
+		450A2B9419C0B9D4009D55B5 /* libEonilXML.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libEonilXML.a;
+			remoteRef = 450A2B9319C0B9D4009D55B5 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		450A2B9619C0B9D4009D55B5 /* libEonilXML.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libEonilXML.a;
+			remoteRef = 450A2B9519C0B9D4009D55B5 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		450A2B9E19C0B9D4009D55B5 /* libFoundationExtras.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libFoundationExtras.a;
+			remoteRef = 450A2B9D19C0B9D4009D55B5 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		450A2BA019C0B9D4009D55B5 /* FoundationExtras - OSX - Static Library - Tests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "FoundationExtras - OSX - Static Library - Tests.xctest";
+			remoteRef = 450A2B9F19C0B9D4009D55B5 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		450A2C0219C0BCA4009D55B5 /* FoundationExtras.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = FoundationExtras.framework;
+			remoteRef = 450A2C0119C0BCA4009D55B5 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		450A2C0719C0BCA4009D55B5 /* libUIKitSanitizer.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libUIKitSanitizer.a;
+			remoteRef = 450A2C0619C0BCA4009D55B5 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		450A2C0919C0BCA4009D55B5 /* UIKitSanitizerTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = UIKitSanitizerTests.xctest;
+			remoteRef = 450A2C0819C0BCA4009D55B5 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		450A2C0B19C0BCA4009D55B5 /* UIKitSanitizer.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = UIKitSanitizer.framework;
+			remoteRef = 450A2C0A19C0BCA4009D55B5 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
 		4578940319AFD1520010CEAB /* AppKitSanitizer.framework */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.framework;
@@ -519,15 +664,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				455BE48419AE6EDD00BE6D11 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		455BE48B19AE6EDD00BE6D11 /* Resources */ = {
+		458D141C19C1F5E5004F0405 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				455BE49919AE6EDD00BE6D11 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -538,26 +681,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				455BE48819AE6EDD00BE6D11 /* Monolith.m in Sources */,
+				458D144F19C1F97E004F0405 /* Monolith.m in Sources */,
+				458D145219C1F98B004F0405 /* Monolith.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		455BE48919AE6EDD00BE6D11 /* Sources */ = {
+		458D141919C1F5E5004F0405 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				455BE49B19AE6EDD00BE6D11 /* MonolithTests.m in Sources */,
+				458D145019C1F97E004F0405 /* Monolith.m in Sources */,
+				458D145319C1F98B004F0405 /* Monolith.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		455BE49219AE6EDD00BE6D11 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 455BE47519AE6EDD00BE6D11 /* Monolith - OSX - Dynamic Framework */;
-			targetProxy = 455BE49119AE6EDD00BE6D11 /* PBXContainerItemProxy */;
-		};
 		4578942819AFD1820010CEAB /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "CocoaSQLite3 - OSX Framework";
@@ -575,35 +715,19 @@
 		};
 /* End PBXTargetDependency section */
 
-/* Begin PBXVariantGroup section */
-		455BE48219AE6EDD00BE6D11 /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				455BE48319AE6EDD00BE6D11 /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		455BE49719AE6EDD00BE6D11 /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				455BE49819AE6EDD00BE6D11 /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
-
 /* Begin XCBuildConfiguration section */
 		455BE46E19AE6E7600BE6D11 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(PROJECT_NAME)";
 			};
 			name = Debug;
 		};
 		455BE46F19AE6E7600BE6D11 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				PRODUCT_NAME = "$(PROJECT_NAME)";
 			};
 			name = Release;
 		};
@@ -625,6 +749,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COMBINE_HIDPI_IMAGES = YES;
 				COPY_PHASE_STRIP = NO;
+				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
@@ -646,7 +771,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				INFOPLIST_FILE = "Monolith/Monolith-Info.plist";
+				INFOPLIST_FILE = Targets/OSX/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				ONLY_ACTIVE_ARCH = YES;
@@ -658,8 +783,8 @@
 					"-sub_umbrella",
 					CocoaSQLite3,
 				);
-				PRODUCT_NAME = "$(PROJECT_NAME)";
 				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				WRAPPER_EXTENSION = framework;
 			};
 			name = Debug;
@@ -683,6 +808,7 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				COPY_PHASE_STRIP = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
@@ -698,7 +824,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				INFOPLIST_FILE = "Monolith/Monolith-Info.plist";
+				INFOPLIST_FILE = Targets/OSX/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				OTHER_LDFLAGS = (
@@ -709,17 +835,15 @@
 					"-sub_umbrella",
 					CocoaSQLite3,
 				);
-				PRODUCT_NAME = "$(PROJECT_NAME)";
 				SDKROOT = macosx;
 				WRAPPER_EXTENSION = framework;
 			};
 			name = Release;
 		};
-		455BE4A019AE6EDE00BE6D11 /* Debug */ = {
+		458D143719C1F5E5004F0405 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Monolith.framework/Versions/A/Monolith";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -731,19 +855,19 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				COMBINE_HIDPI_IMAGES = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-					"$(inherited)",
-				);
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Monolith/Monolith-Prefix.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
@@ -755,21 +879,24 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				INFOPLIST_FILE = "MonolithTests/MonolithTests-Info.plist";
-				MACOSX_DEPLOYMENT_TARGET = 10.9;
-				ONLY_ACTIVE_ARCH = YES;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = macosx;
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
+				INFOPLIST_FILE = Targets/iOS/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
-		455BE4A119AE6EDE00BE6D11 /* Release */ = {
+		458D143819C1F5E5004F0405 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Monolith.framework/Versions/A/Monolith";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -781,31 +908,35 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				COMBINE_HIDPI_IMAGES = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_NS_ASSERTIONS = NO;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-					"$(inherited)",
-				);
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Monolith/Monolith-Prefix.pch";
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				INFOPLIST_FILE = "MonolithTests/MonolithTests-Info.plist";
-				MACOSX_DEPLOYMENT_TARGET = 10.9;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = macosx;
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
+				INFOPLIST_FILE = Targets/iOS/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
@@ -821,7 +952,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		455BE49C19AE6EDE00BE6D11 /* Build configuration list for PBXNativeTarget "Monolith - OSX - Dynamic Framework" */ = {
+		455BE49C19AE6EDE00BE6D11 /* Build configuration list for PBXNativeTarget "Monolith - OSX" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				455BE49D19AE6EDE00BE6D11 /* Debug */,
@@ -830,14 +961,13 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		455BE49F19AE6EDE00BE6D11 /* Build configuration list for PBXNativeTarget "MonolithTests" */ = {
+		458D143619C1F5E5004F0405 /* Build configuration list for PBXNativeTarget "Monolith - iOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				455BE4A019AE6EDE00BE6D11 /* Debug */,
-				455BE4A119AE6EDE00BE6D11 /* Release */,
+				458D143719C1F5E5004F0405 /* Debug */,
+				458D143819C1F5E5004F0405 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

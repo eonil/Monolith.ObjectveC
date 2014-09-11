@@ -8,13 +8,19 @@
       location = "group:Components"
       name = "Components">
       <FileRef
+         location = "group:Common/FoundationExtras/FoundationExtras.xcodeproj">
+      </FileRef>
+      <FileRef
          location = "group:CocoaSQLite/CocoaSQLite3.xcodeproj">
       </FileRef>
       <FileRef
          location = "group:Common/AppKitSanitizer/AppKitSanitizer.xcodeproj">
       </FileRef>
       <FileRef
-         location = "group:Common/FoundationExtras/FoundationExtras.xcodeproj">
+         location = "group:Common/UIKitSanitizer/UIKitSanitizer.xcodeproj">
+      </FileRef>
+      <FileRef
+         location = "group:EonilXML/EonilXML.xcodeproj">
       </FileRef>
    </Group>
    <FileRef
