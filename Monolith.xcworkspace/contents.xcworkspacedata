@@ -4,25 +4,6 @@
    <FileRef
       location = "group:README.md">
    </FileRef>
-   <Group
-      location = "group:Components"
-      name = "Components">
-      <FileRef
-         location = "group:Common/FoundationExtras/FoundationExtras.xcodeproj">
-      </FileRef>
-      <FileRef
-         location = "group:CocoaSQLite/CocoaSQLite3.xcodeproj">
-      </FileRef>
-      <FileRef
-         location = "group:Common/AppKitSanitizer/AppKitSanitizer.xcodeproj">
-      </FileRef>
-      <FileRef
-         location = "group:Common/UIKitSanitizer/UIKitSanitizer.xcodeproj">
-      </FileRef>
-      <FileRef
-         location = "group:EonilXML/EonilXML.xcodeproj">
-      </FileRef>
-   </Group>
    <FileRef
       location = "group:Monolith/Monolith.xcodeproj">
    </FileRef>
