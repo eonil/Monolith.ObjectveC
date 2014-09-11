@@ -1,6 +1,0 @@
-//
-// Prefix header for all source files of the 'OS X Static Library' target in the 'OS X Static Library' project
-//
-
-
-#include	"../Source/Prefix.pch"
