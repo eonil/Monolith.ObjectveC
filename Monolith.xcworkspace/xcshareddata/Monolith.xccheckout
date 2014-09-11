@@ -28,7 +28,7 @@
 		<key>8BD82A05ACFAF1B466F6CEF6751425E73E275F81</key>
 		<string>..Components/Common</string>
 		<key>8E3040724D598C3A74B4739B1124CF9E9D4EF1C9</key>
-		<string>../Components/XML/</string>
+		<string>../Components/XML</string>
 		<key>FD55AFA91F3CC977FF03288DC234AB1C17693E11</key>
 		<string>..Components/CocoaSQLite</string>
 	</dict>

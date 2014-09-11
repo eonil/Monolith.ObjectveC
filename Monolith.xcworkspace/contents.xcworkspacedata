@@ -10,4 +10,7 @@
    <FileRef
       location = "group:MonolithicTester/MonolithicTester.xcodeproj">
    </FileRef>
+   <FileRef
+      location = "group:Tools">
+   </FileRef>
 </Workspace>
