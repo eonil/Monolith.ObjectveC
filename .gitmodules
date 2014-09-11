@@ -4,3 +4,6 @@
 [submodule "Components/SQLite3"]
 	path = Components/SQLite3
 	url = https://github.com/Eonil/SQLite3.git
+[submodule "Components/XML"]
+	path = Components/XML
+	url = https://github.com/Eonil/XML.git
