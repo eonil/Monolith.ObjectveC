@@ -14,7 +14,6 @@
 #	ifndef TARGET_OS_MAC
 #		error	"Apple platform without MAC symbol."
 #	endif
-
 #	if		TARGET_OS_MAC
 #		if		TARGET_OS_IPHONE
 #			import	<UIKit/UIKit.h>
@@ -26,5 +25,6 @@
 #	endif
 #endif
 
-//#import <CocoaSQLite/CocoaSQLite.h>
-//#import <EonilXML/EonilXML.h>
+#import <EonilSQLite3/EonilSQLite3.h>
+#import <EonilXML/EonilXML.h>
+#import <EonilCommonMark/EonilCommonMark.h>
