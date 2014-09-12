@@ -37,7 +37,7 @@ function process_if_possible
 	then
 		logok "Something to commit. Do it."
 		git add . -A
-		git commit -am "(autocommit by a script for a checkpoint, working on...)"
+		git commit -a --allow-empty-message -m ""
 		git push
 	else
 		logok "Nothing to commit. Skipping"
