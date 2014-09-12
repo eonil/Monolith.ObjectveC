@@ -7,3 +7,6 @@
 [submodule "Components/XML"]
 	path = Components/XML
 	url = https://github.com/Eonil/XML.git
+[submodule "Components/CommonMark"]
+	path = Components/CommonMark
+	url = https://github.com/Eonil/CommonMark.git

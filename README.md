@@ -81,6 +81,13 @@ targets prepared on each component projects.
 
 
 
+Project Maintenance
+-------------------
+
+-	Setting "Target Dependencies" is required. I think this 
+	is also resolving ambguity between same named products.
+	Because this project produces many same named products,
+	then it seems necessary.
 
 
 
