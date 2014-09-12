@@ -70,7 +70,7 @@ test_and_perform Components/XML
 test_and_perform .
 
 logok "Done."
-
+log
 
 
 
