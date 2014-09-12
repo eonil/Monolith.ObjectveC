@@ -1,6 +1,15 @@
 #/bin/bash
 
-set -e
+#	Automatic Add/Commit/Push.
+#	Hoon H., 2014/09/12
+#
+#	You should run this command at repository root.
+#	Commit message is always required.
+#
+#		Tools/add-commit-push.bash <commit-message>
+#
+
+
 
 
 
@@ -104,7 +113,10 @@ function test_and_perform
 
 
 
+
 #### main program - central control
+
+set -e
 
 assert_monolith_repository_root
 assert_non_empty_commit_message
