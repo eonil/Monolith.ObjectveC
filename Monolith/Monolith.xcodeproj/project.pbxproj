@@ -27,7 +27,7 @@
 		4578942F19AFD18B0010CEAB /* FoundationExtras.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4578942219AFD1520010CEAB /* FoundationExtras.framework */; };
 		4578943419AFD1CD0010CEAB /* AppKitSanitizer.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 4578940319AFD1520010CEAB /* AppKitSanitizer.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 		4578943519AFD1CD0010CEAB /* FoundationExtras.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 4578942219AFD1520010CEAB /* FoundationExtras.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
-		458D144D19C1F97E004F0405 /* Monolith.h in Headers */ = {isa = PBXBuildFile; fileRef = 458D144B19C1F97E004F0405 /* Monolith.h */; };
+		458D144D19C1F97E004F0405 /* Monolith.h in Headers */ = {isa = PBXBuildFile; fileRef = 458D144B19C1F97E004F0405 /* Monolith.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		458D144E19C1F97E004F0405 /* Monolith.h in Headers */ = {isa = PBXBuildFile; fileRef = 458D144B19C1F97E004F0405 /* Monolith.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		458D144F19C1F97E004F0405 /* Monolith.m in Sources */ = {isa = PBXBuildFile; fileRef = 458D144C19C1F97E004F0405 /* Monolith.m */; };
 		458D145019C1F97E004F0405 /* Monolith.m in Sources */ = {isa = PBXBuildFile; fileRef = 458D144C19C1F97E004F0405 /* Monolith.m */; };
@@ -109,6 +109,55 @@
 			proxyType = 2;
 			remoteGlobalIDString = 4542F3DB19971BB800F95720;
 			remoteInfo = UIKitSanitizerTests;
+		};
+		453A23F519C29C0800F73DC9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 453A23EA19C29C0800F73DC9 /* CommonMark.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 45E20BF319BC529E0095C94F;
+			remoteInfo = CommonMark;
+		};
+		453A23F719C29C0800F73DC9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 453A23EA19C29C0800F73DC9 /* CommonMark.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 45A7CB5C19BD735700EAE282;
+			remoteInfo = "CommonMarkC - OSX - Static Library";
+		};
+		453A23F919C29C0800F73DC9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 453A23EA19C29C0800F73DC9 /* CommonMark.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 45A7CB6E19BD738C00EAE282;
+			remoteInfo = "CommonMarkC - iOS - Static Library";
+		};
+		453A23FB19C29C0800F73DC9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 453A23EA19C29C0800F73DC9 /* CommonMark.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 45A7CB0619BD725100EAE282;
+			remoteInfo = "CommonMark - OSX - Static Framework";
+		};
+		453A23FD19C29C0800F73DC9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 453A23EA19C29C0800F73DC9 /* CommonMark.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 45A7CB1019BD725100EAE282;
+			remoteInfo = "CommonMark - OSX - Static FrameworkTests";
+		};
+		453A23FF19C29C0800F73DC9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 453A23EA19C29C0800F73DC9 /* CommonMark.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 45A7CB2119BD726700EAE282;
+			remoteInfo = "CommonMark - iOS - Static Framework";
+		};
+		453A240119C29C0800F73DC9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 453A23EA19C29C0800F73DC9 /* CommonMark.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 45A7CB2B19BD726700EAE282;
+			remoteInfo = "CommonMark - iOS - Static FrameworkTests";
 		};
 		4551E96A19C201BA0048FD31 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -338,6 +387,7 @@
 
 /* Begin PBXFileReference section */
 		450A2BFD19C0BCA4009D55B5 /* UIKitSanitizer.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = UIKitSanitizer.xcodeproj; path = ../Components/Common/UIKitSanitizer/UIKitSanitizer.xcodeproj; sourceTree = "<group>"; };
+		453A23EA19C29C0800F73DC9 /* CommonMark.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = CommonMark.xcodeproj; path = ../Components/CommonMark/CommonMark.xcodeproj; sourceTree = "<group>"; };
 		4551E95C19C201BA0048FD31 /* EonilSQLite3.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = EonilSQLite3.xcodeproj; path = ../Components/SQLite3/ObjectiveC/EonilSQLite3.xcodeproj; sourceTree = "<group>"; };
 		4551E95F19C201BA0048FD31 /* EonilXML.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = EonilXML.xcodeproj; path = ../Components/XML/ObjectiveC/EonilXML.xcodeproj; sourceTree = "<group>"; };
 		455BE47619AE6EDD00BE6D11 /* Monolith.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Monolith.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -389,6 +439,20 @@
 				450A2C0919C0BCA4009D55B5 /* UIKitSanitizerTests.xctest */,
 				4565C2C319C2296C007A956E /* UIKitSanitizer.framework */,
 				4565C2C519C2296C007A956E /* UIKitSanitizer.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		453A23EB19C29C0800F73DC9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				453A23F619C29C0800F73DC9 /* CommonMark */,
+				453A23F819C29C0800F73DC9 /* libCommonMark.a */,
+				453A23FA19C29C0800F73DC9 /* libCommonMark.a */,
+				453A23FC19C29C0800F73DC9 /* CommonMark.framework */,
+				453A23FE19C29C0800F73DC9 /* CommonMark - OSX - Static FrameworkTests.xctest */,
+				453A240019C29C0800F73DC9 /* CommonMark.framework */,
+				453A240219C29C0800F73DC9 /* CommonMark - iOS - Static FrameworkTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -511,6 +575,7 @@
 				450A2BFD19C0BCA4009D55B5 /* UIKitSanitizer.xcodeproj */,
 				4551E95C19C201BA0048FD31 /* EonilSQLite3.xcodeproj */,
 				4551E95F19C201BA0048FD31 /* EonilXML.xcodeproj */,
+				453A23EA19C29C0800F73DC9 /* CommonMark.xcodeproj */,
 			);
 			name = "(components)";
 			sourceTree = "<group>";
@@ -633,6 +698,10 @@
 					ProjectRef = 457893FA19AFD1520010CEAB /* AppKitSanitizer.xcodeproj */;
 				},
 				{
+					ProductGroup = 453A23EB19C29C0800F73DC9 /* Products */;
+					ProjectRef = 453A23EA19C29C0800F73DC9 /* CommonMark.xcodeproj */;
+				},
+				{
 					ProductGroup = 4551E95D19C201BA0048FD31 /* Products */;
 					ProjectRef = 4551E95C19C201BA0048FD31 /* EonilSQLite3.xcodeproj */;
 				},
@@ -685,6 +754,55 @@
 			fileType = wrapper.cfbundle;
 			path = UIKitSanitizerTests.xctest;
 			remoteRef = 450A2C0819C0BCA4009D55B5 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		453A23F619C29C0800F73DC9 /* CommonMark */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = CommonMark;
+			remoteRef = 453A23F519C29C0800F73DC9 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		453A23F819C29C0800F73DC9 /* libCommonMark.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libCommonMark.a;
+			remoteRef = 453A23F719C29C0800F73DC9 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		453A23FA19C29C0800F73DC9 /* libCommonMark.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libCommonMark.a;
+			remoteRef = 453A23F919C29C0800F73DC9 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		453A23FC19C29C0800F73DC9 /* CommonMark.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = CommonMark.framework;
+			remoteRef = 453A23FB19C29C0800F73DC9 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		453A23FE19C29C0800F73DC9 /* CommonMark - OSX - Static FrameworkTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "CommonMark - OSX - Static FrameworkTests.xctest";
+			remoteRef = 453A23FD19C29C0800F73DC9 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		453A240019C29C0800F73DC9 /* CommonMark.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = CommonMark.framework;
+			remoteRef = 453A23FF19C29C0800F73DC9 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		453A240219C29C0800F73DC9 /* CommonMark - iOS - Static FrameworkTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "CommonMark - iOS - Static FrameworkTests.xctest";
+			remoteRef = 453A240119C29C0800F73DC9 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 		4551E96B19C201BA0048FD31 /* libEonilSQLite3.a */ = {

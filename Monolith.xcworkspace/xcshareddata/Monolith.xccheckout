@@ -12,6 +12,8 @@
 	<dict>
 		<key>120EA977BD48968EAB2368B0255C2CBB634BF08E</key>
 		<string>https://github.com/Eonil/Monolith.git</string>
+		<key>41F869EC968F4388C6DBC63F522C62C15AB785D4</key>
+		<string>https://github.com/Eonil/CommonMark.git</string>
 		<key>8BD82A05ACFAF1B466F6CEF6751425E73E275F81</key>
 		<string>https://github.com/Eonil/Common.git</string>
 		<key>8E3040724D598C3A74B4739B1124CF9E9D4EF1C9</key>
@@ -25,6 +27,8 @@
 	<dict>
 		<key>120EA977BD48968EAB2368B0255C2CBB634BF08E</key>
 		<string>..</string>
+		<key>41F869EC968F4388C6DBC63F522C62C15AB785D4</key>
+		<string>../Components/CommonMark/</string>
 		<key>8BD82A05ACFAF1B466F6CEF6751425E73E275F81</key>
 		<string>..Components/Common</string>
 		<key>8E3040724D598C3A74B4739B1124CF9E9D4EF1C9</key>
@@ -55,6 +59,14 @@
 			<string>8BD82A05ACFAF1B466F6CEF6751425E73E275F81</string>
 			<key>IDESourceControlWCCName</key>
 			<string>Common</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>41F869EC968F4388C6DBC63F522C62C15AB785D4</string>
+			<key>IDESourceControlWCCName</key>
+			<string>CommonMark</string>
 		</dict>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
