@@ -3,6 +3,18 @@
 set -e
 
 
+
+### global parameter capturings
+
+USER_COMMIT_MSG="$1"
+
+
+
+
+
+
+### common features.
+
 function log
 {
 	echo "$@";
@@ -16,6 +28,36 @@ function logerr
 	echo "[ERR]" "$@" 1>&2;
 }
 
+
+
+
+
+
+#### subprograms
+
+function assert_monolith_repository_root
+{
+	# Checkup exercise.
+	cd .git
+	cd ..
+	cd Components
+	cd ..
+	cd Monolith
+	cd ..
+	cd Monolith.xcworkspace
+	cd ..
+}
+function assert_non_empty_commit_message
+{
+	if [ "$USER_COMMIT_MSG" = "" ]
+	then
+		logerr "Please provide a commit message."
+		logerr
+		logerr "  Tools/add-commit-push.bash <commit-message>"
+		logerr
+		exit 1
+	fi
+}
 function assert_master_branch
 {
 	logok "Current location:" `pwd`
@@ -37,7 +79,7 @@ function process_if_possible
 	then
 		logok "Something to commit. Do it."
 		git add . -A
-		git commit -a --allow-empty-message -m ""
+		git commit -a --allow-empty-message -m "$USER_COMMIT_MSG"
 		git push
 	else
 		logok "Nothing to commit. Skipping"
@@ -55,9 +97,17 @@ function test_and_perform
 	log
 }
 
-# Checkup exercise.
-cd Monolith
-cd ..
+
+
+
+
+
+
+
+#### main program - central control
+
+assert_monolith_repository_root
+assert_non_empty_commit_message
 
 log
 logok "Starting..."
