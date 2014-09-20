@@ -5,11 +5,6 @@ Hoon H.
 
 
 
-
-
-
-
-
 This is a trial to make a monolithic repository for all of 
 my reusable code.
 
@@ -88,6 +83,24 @@ Project Maintenance
 	is also resolving ambguity between same named products.
 	Because this project produces many same named products,
 	then it seems necessary.
+
+
+
+
+
+
+Langauge Separation
+-------------------
+
+-	Monolith library can have multiple different project
+	configurations which contains various build for various
+	languages.
+
+-	Monolith Xcode project targets only Swift/Objective-C 
+	platforms. I don't try to provide an interface in any 
+	other languages. A separated project configuration will
+	be created if it has to.
+	
 
 
 
