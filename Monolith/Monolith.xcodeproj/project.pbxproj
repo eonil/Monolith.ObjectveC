@@ -6,21 +6,6 @@
 	objectVersion = 46;
 	objects = {
 
-/* Begin PBXAggregateTarget section */
-		4551EB2319C212BE0048FD31 /* Monolith - All */ = {
-			isa = PBXAggregateTarget;
-			buildConfigurationList = 4551EB5119C212BF0048FD31 /* Build configuration list for PBXAggregateTarget "Monolith - All" */;
-			buildPhases = (
-			);
-			dependencies = (
-				4551EB5719C212CC0048FD31 /* PBXTargetDependency */,
-				4551EB5919C212CC0048FD31 /* PBXTargetDependency */,
-			);
-			name = "Monolith - All";
-			productName = "Monolith - All";
-		};
-/* End PBXAggregateTarget section */
-
 /* Begin PBXBuildFile section */
 		452AD57719C368B7006D5CBD /* EonilCommonMark.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 452AD55719C367F5006D5CBD /* EonilCommonMark.framework */; };
 		452AD57819C368BF006D5CBD /* EonilCommonMark.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 452AD55519C367F5006D5CBD /* EonilCommonMark.framework */; };
@@ -35,6 +20,7 @@
 		458D144E19C1F97E004F0405 /* Monolith.h in Headers */ = {isa = PBXBuildFile; fileRef = 458D144B19C1F97E004F0405 /* Monolith.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		458D144F19C1F97E004F0405 /* Monolith.m in Sources */ = {isa = PBXBuildFile; fileRef = 458D144C19C1F97E004F0405 /* Monolith.m */; };
 		458D145019C1F97E004F0405 /* Monolith.m in Sources */ = {isa = PBXBuildFile; fileRef = 458D144C19C1F97E004F0405 /* Monolith.m */; };
+		458EE2C319CE03B10018CE62 /* EonilSQLite3ForObjectiveC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 452D399919CDF21300B81570 /* EonilSQLite3ForObjectiveC.framework */; };
 		45B2899719C214BA00208C96 /* EonilXML.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4551EB4A19C212BF0048FD31 /* EonilXML.framework */; };
 		45FF5B2D19C22A4300CEAA48 /* EonilXML.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4551EB4419C212BF0048FD31 /* EonilXML.framework */; };
 		45FF5B2E19C22A4300CEAA48 /* FoundationExtras.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4578942219AFD1520010CEAB /* FoundationExtras.framework */; };
@@ -301,20 +287,6 @@
 			remoteGlobalIDString = 4551E9BB19C202180048FD31;
 			remoteInfo = "EonilXML - OSX - Dynamic Framework";
 		};
-		4551EB5619C212CC0048FD31 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 455BE46A19AE6E7600BE6D11 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 455BE47519AE6EDD00BE6D11;
-			remoteInfo = "Monolith - OSX";
-		};
-		4551EB5819C212CC0048FD31 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 455BE46A19AE6E7600BE6D11 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 458D141D19C1F5E5004F0405;
-			remoteInfo = "Monolith - iOS";
-		};
 		4565C2BC19C2296C007A956E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 457893FD19AFD1520010CEAB /* FoundationExtras.xcodeproj */;
@@ -385,6 +357,13 @@
 			remoteGlobalIDString = 451240C9195E9E0400B6198A;
 			remoteInfo = "FoundationExtras - OSX - Dynamic Framework";
 		};
+		458EE2C419CE03BF0018CE62 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 452D397519CDF21300B81570 /* EonilSQLite3ForObjectiveC.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 4551EA7A19C2067F0048FD31;
+			remoteInfo = "EonilSQLite3 - iOS - Framework - Dynamic";
+		};
 		45B289E219C2159700208C96 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 457893FD19AFD1520010CEAB /* FoundationExtras.xcodeproj */;
@@ -448,6 +427,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				458EE2C319CE03B10018CE62 /* EonilSQLite3ForObjectiveC.framework in Frameworks */,
 				452AD57719C368B7006D5CBD /* EonilCommonMark.framework in Frameworks */,
 				45FF5B2D19C22A4300CEAA48 /* EonilXML.framework in Frameworks */,
 				45FF5B2E19C22A4300CEAA48 /* FoundationExtras.framework in Frameworks */,
@@ -692,6 +672,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				458EE2C519CE03BF0018CE62 /* PBXTargetDependency */,
 				452AD57619C368AB006D5CBD /* PBXTargetDependency */,
 				4509C1E019C22BDA004C66D3 /* PBXTargetDependency */,
 				4509C1E219C22BDA004C66D3 /* PBXTargetDependency */,
@@ -710,9 +691,6 @@
 			attributes = {
 				LastUpgradeCheck = 0600;
 				TargetAttributes = {
-					4551EB2319C212BE0048FD31 = {
-						CreatedOnToolsVersion = 6.0;
-					};
 					458D141D19C1F5E5004F0405 = {
 						CreatedOnToolsVersion = 6.0;
 					};
@@ -763,7 +741,6 @@
 			targets = (
 				455BE47519AE6EDD00BE6D11 /* Monolith - OSX */,
 				458D141D19C1F5E5004F0405 /* Monolith - iOS */,
-				4551EB2319C212BE0048FD31 /* Monolith - All */,
 			);
 		};
 /* End PBXProject section */
@@ -1118,16 +1095,6 @@
 			name = "EonilCommonMark - iOS - Dynamic Framework";
 			targetProxy = 452AD57519C368AB006D5CBD /* PBXContainerItemProxy */;
 		};
-		4551EB5719C212CC0048FD31 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 455BE47519AE6EDD00BE6D11 /* Monolith - OSX */;
-			targetProxy = 4551EB5619C212CC0048FD31 /* PBXContainerItemProxy */;
-		};
-		4551EB5919C212CC0048FD31 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 458D141D19C1F5E5004F0405 /* Monolith - iOS */;
-			targetProxy = 4551EB5819C212CC0048FD31 /* PBXContainerItemProxy */;
-		};
 		4578942A19AFD1820010CEAB /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "AppKitSanitizer - OSX - Dynamic Framework";
@@ -1138,23 +1105,14 @@
 			name = "FoundationExtras - OSX - Dynamic Framework";
 			targetProxy = 4578942B19AFD1820010CEAB /* PBXContainerItemProxy */;
 		};
+		458EE2C519CE03BF0018CE62 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "EonilSQLite3 - iOS - Framework - Dynamic";
+			targetProxy = 458EE2C419CE03BF0018CE62 /* PBXContainerItemProxy */;
+		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		4551EB2419C212BF0048FD31 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Debug;
-		};
-		4551EB2519C212BF0048FD31 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Release;
-		};
 		455BE46E19AE6E7600BE6D11 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -1330,7 +1288,7 @@
 					"-sub_umbrella",
 					UIKitSanitizer,
 					"-sub_umbrella",
-					EonilSQLite3,
+					EonilSQLite3ForObjectiveC,
 					"-sub_umbrella",
 					EonilXML,
 				);
@@ -1388,7 +1346,7 @@
 					"-sub_umbrella",
 					UIKitSanitizer,
 					"-sub_umbrella",
-					EonilSQLite3,
+					EonilSQLite3ForObjectiveC,
 					"-sub_umbrella",
 					EonilXML,
 				);
@@ -1404,15 +1362,6 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		4551EB5119C212BF0048FD31 /* Build configuration list for PBXAggregateTarget "Monolith - All" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				4551EB2419C212BF0048FD31 /* Debug */,
-				4551EB2519C212BF0048FD31 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		455BE46D19AE6E7600BE6D11 /* Build configuration list for PBXProject "Monolith" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
