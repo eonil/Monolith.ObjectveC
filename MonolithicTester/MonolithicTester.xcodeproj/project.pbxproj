@@ -19,23 +19,23 @@
 		455BDD3119AE732E00939A21 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 455BDD2F19AE732E00939A21 /* InfoPlist.strings */; };
 		455BDD3319AE732E00939A21 /* MonolithicTesterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 455BDD3219AE732E00939A21 /* MonolithicTesterTests.m */; };
 		455BDD3F19AE74C100939A21 /* Monolith.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 455BDCF219AE716300939A21 /* Monolith.framework */; };
-		455BDD4019AE74D200939A21 /* Monolith.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 455BDCF219AE716300939A21 /* Monolith.framework */; };
+		455BDD4019AE74D200939A21 /* Monolith.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 455BDCF219AE716300939A21 /* Monolith.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		452D39C019CDF2F000B81570 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 455BDCEC19AE716300939A21 /* Monolith.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 458D141E19C1F5E5004F0405;
+			remoteInfo = "Monolith - iOS";
+		};
 		455BDCF119AE716300939A21 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 455BDCEC19AE716300939A21 /* Monolith.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = 455BE47619AE6EDD00BE6D11;
 			remoteInfo = "Monolith - OSX - Dynamic Framework";
-		};
-		455BDCF319AE716300939A21 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 455BDCEC19AE716300939A21 /* Monolith.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 455BE48D19AE6EDD00BE6D11;
-			remoteInfo = MonolithTests;
 		};
 		455BDD2A19AE732E00939A21 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -147,7 +147,7 @@
 			isa = PBXGroup;
 			children = (
 				455BDCF219AE716300939A21 /* Monolith.framework */,
-				455BDCF419AE716300939A21 /* MonolithTests.xctest */,
+				452D39C119CDF2F000B81570 /* Monolith.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -250,7 +250,7 @@
 		455BDCD319AE714000939A21 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0510;
+				LastUpgradeCheck = 0600;
 				TargetAttributes = {
 					455BDD2519AE732E00939A21 = {
 						TestTargetID = 455BDD0619AE732E00939A21;
@@ -283,18 +283,18 @@
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
+		452D39C119CDF2F000B81570 /* Monolith.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Monolith.framework;
+			remoteRef = 452D39C019CDF2F000B81570 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
 		455BDCF219AE716300939A21 /* Monolith.framework */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.framework;
 			path = Monolith.framework;
 			remoteRef = 455BDCF119AE716300939A21 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		455BDCF419AE716300939A21 /* MonolithTests.xctest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = MonolithTests.xctest;
-			remoteRef = 455BDCF319AE716300939A21 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */
@@ -393,6 +393,7 @@
 		455BDCD719AE714000939A21 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
 			};
 			name = Debug;
 		};

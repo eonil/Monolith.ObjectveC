@@ -25,6 +25,6 @@
 #	endif
 #endif
 
-#import <EonilSQLite3/EonilSQLite3.h>
+#import <EonilSQLite3ForObjectiveC/EonilSQLite3.h>
 #import <EonilXML/EonilXML.h>
 #import <EonilCommonMark/EonilCommonMark.h>
