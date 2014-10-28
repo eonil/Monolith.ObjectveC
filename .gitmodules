@@ -1,9 +1,6 @@
 [submodule "Components/Common"]
 	path = Components/Common
 	url = https://github.com/Eonil/Common.git
-[submodule "Components/SQLite3"]
-	path = Components/SQLite3
-	url = https://github.com/Eonil/SQLite3.git
 [submodule "Components/XML"]
 	path = Components/XML
 	url = https://github.com/Eonil/XML.git
