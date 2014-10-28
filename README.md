@@ -9,13 +9,11 @@ This is a trial to make a monolithic repository for all of
 my reusable code.
 
 This source tree cares only one thing. Version consistency. 
-This doesn't care anything else. Total size of this source 
-code will grow large as like GBs, and total build time will
-take hours...
+This doesn't care anything else. 
 
 Anyway for your convenience, each component libraries are 
 currently separated in different repositories. You can 
-composite them to build your own llight-weight version 
+composite them to build your own light-weight version 
 compositions.
 
 
