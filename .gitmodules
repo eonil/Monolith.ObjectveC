@@ -7,3 +7,6 @@
 [submodule "Components/CommonMark"]
 	path = Components/CommonMark
 	url = https://github.com/Eonil/CommonMark.git
+[submodule "Components/SQLite3.ObjectiveC"]
+	path = Components/SQLite3.ObjectiveC
+	url = https://github.com/Eonil/SQLite3.ObjectiveC.git
